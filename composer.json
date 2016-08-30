@@ -1,0 +1,22 @@
+{
+    "name": "ascendens/igcrawler",
+    "description": "Crawler for calculating amount of \"img\" tags on site",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrey Kotelnik",
+            "email": "uarockfan@gmail.com"
+        }
+    ],
+    "license": "MIT",
+
+    "config": {
+        "bin-dir": "./bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ascendens\\Igcrawler\\": "src/",
+            "Ascendens\\Igcrawler\\Test\\": "tests/"
+        }
+    }
+}
